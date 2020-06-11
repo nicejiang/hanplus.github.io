@@ -12,32 +12,33 @@ tags:
 
 > 由于新的小项目想依赖自己以前写的库，老是本地复制粘贴感觉很麻烦，然后学习了一下发布远程依赖，在此记录一下，也提供一些经验避免踩坑吧~
 
-***
+---
+
 ## 一、发布GitHub项目
 
 > 如果已经了解发布*GitHub*项目请直接跳过这一步。
 
 这里说一下*AS*上传项目到*GitHub*：
 
-###### 1. 下载并安装[Git](https://git-scm.com/)。
+#### 1.下载并安装[Git](https://git-scm.com/)。
 
-###### 2. 在AS上配置*Git*，`File` -> `Settings` -> `Version Control` -> `Git`。
+#### 2.在AS上配置*Git*，`File` -> `Settings` -> `Version Control` -> `Git`。
 
 ![配置Git](https://upload-images.jianshu.io/upload_images/10515352-6a7cb290432d3915.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###### 3. `File` -> `Settings` -> `Version Control` -> `GitHub`，配置*GitHub*账号：
+#### 3.`File` -> `Settings` -> `Version Control` -> `GitHub`，配置*GitHub*账号：
 
 ![配置GitHub账号](https://upload-images.jianshu.io/upload_images/10515352-7c1f1f613b504d2a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###### 4. `VCS` -> `Import into Version Control` -> `Create Git Repository...`，创建本地代码仓库，选定项目即可：
+#### 4.`VCS` -> `Import into Version Control` -> `Create Git Repository...`，创建本地代码仓库，选定项目即可：
 
 ![创建本地代码仓库](https://upload-images.jianshu.io/upload_images/10515352-88c739c45883f8be.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###### 5. 项目上右键，添加文件到本地仓库，如需添加单个文件可在文件上右键然后 `Add`即可：
+#### 5.项目上右键，添加文件到本地仓库，如需添加单个文件可在文件上右键然后 `Add`即可：
 
 ![添加文件到本地仓库](https://upload-images.jianshu.io/upload_images/10515352-8b71bea3769f1d52.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###### 6. 创建*GitHub*远程仓库：
+#### 6.创建*GitHub*远程仓库：
 
 ![上传本地仓库到GitHub](https://upload-images.jianshu.io/upload_images/10515352-7ee0a6e7ef934adc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -45,7 +46,7 @@ tags:
 
 ![QQ截图20191021191444.png](https://upload-images.jianshu.io/upload_images/10515352-639bdf8df04b298e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###### 7. 提交文件到本地仓库并同步到*GitHub*
+#### 7.提交文件到本地仓库并同步到*GitHub*
 
 ![提交文件或者文件夹](https://upload-images.jianshu.io/upload_images/10515352-ccf97dcf35630a45.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -77,7 +78,6 @@ PS：关于命令行上传，可以百度或者看这里：[上传本地项目�
 - 发布后可查看改项目所有的发布版本
 
 ![查看版本](https://upload-images.jianshu.io/upload_images/10515352-190e07ba5e79a343.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 
 
 ## 三、发布GitHub版本到[JitPack](https://jitpack.io/)
