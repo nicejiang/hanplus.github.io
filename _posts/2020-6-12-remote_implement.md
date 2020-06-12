@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: "「Android」将GitHub项目发布为远程依赖"
 subtitle: "从此可以使用自己的远程依赖库"
@@ -8,9 +8,9 @@ header-mask: 0.4
 catalog: true
 tags:
   - GitHub
----
+--- -->
 
-> 由于新的小项目想依赖自己以前写的库，老是本地复制粘贴感觉很麻烦，然后学习了一下发布远程依赖，在此记录一下，也提供一些经验避免踩坑吧~
+> 由于新的项目想依赖自己以前写的库，老是本地复制粘贴感觉很麻烦，然后学习了一下发布远程依赖，在此记录一下，也提供一些经验避免踩坑吧~
 
 ---
 
@@ -22,15 +22,15 @@ tags:
 
 #### 1.下载并安装[Git](https://git-scm.com/)。
 
-#### 2.在AS上配置*Git*，`File` -> `Settings` -> `Version Control` -> `Git`。
+#### 2.在AS上配置*Git*，`File` > `Settings` > `Version Control` > `Git`。
 
 ![配置Git](https://upload-images.jianshu.io/upload_images/10515352-6a7cb290432d3915.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#### 3.`File` -> `Settings` -> `Version Control` -> `GitHub`，配置*GitHub*账号：
+#### 3.`File` > `Settings` > `Version Control` > `GitHub`，配置*GitHub*账号：
 
 ![配置GitHub账号](https://upload-images.jianshu.io/upload_images/10515352-7c1f1f613b504d2a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-#### 4.`VCS` -> `Import into Version Control` -> `Create Git Repository...`，创建本地代码仓库，选定项目即可：
+#### 4.`VCS` > `Import into Version Control` > `Create Git Repository...`，创建本地代码仓库，选定项目即可：
 
 ![创建本地代码仓库](https://upload-images.jianshu.io/upload_images/10515352-88c739c45883f8be.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
