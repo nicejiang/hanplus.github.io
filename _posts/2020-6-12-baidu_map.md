@@ -1,3 +1,14 @@
+---
+layout:     post
+title:      "『Android』 百度地图SDK的简单接入"
+subtitle:   "简单快速地在你的项目中接入百度地图。"
+date:       2018-04-29 12:00:00
+author:     "HanPlus"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - Android
+---
 
 ## 一、 申请API_KEY
 

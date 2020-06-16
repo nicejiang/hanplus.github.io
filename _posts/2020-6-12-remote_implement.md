@@ -1,14 +1,16 @@
-<!-- ---
-layout: post
-title: "「Android」将GitHub项目发布为远程依赖"
-subtitle: "从此可以使用自己的远程依赖库"
-author: "HanPlus"
-header-img: "img/post-bg-halting.jpg"
+---
+layout:     post
+title:      "『Android』 将GitHub项目发布为远程依赖"
+subtitle:   "从此可以使用自己的远程依赖库。"
+date:       2019-04-29 12:00:00
+author:     "HanPlus"
+header-img: "img/post-bg-2015.jpg"
 header-mask: 0.4
 catalog: true
 tags:
-  - GitHub
---- -->
+    - Android
+	- GitHub
+---
 
 > 由于新的项目想依赖自己以前写的库，老是本地复制粘贴感觉很麻烦，然后学习了一下发布远程依赖，在此记录一下，也提供一些经验避免踩坑吧~
 
