@@ -66,20 +66,28 @@ PS：`SHA1`找了我好久...
 ```
 <!-- 这个权限用于进行网络定位-->
 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
 <!-- 这个权限用于访问GPS定位-->
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
 <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位-->
 <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
 <!-- 获取运营商信息，用于支持提供运营商信息相关的接口-->
 <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
 <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
 <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
 <!-- 用于读取手机当前的状态-->
 <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
 <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据-->
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
 <!-- 访问网络，网络定位需要上网-->
 <uses-permission android:name="android.permission.INTERNET" />
+
 <!-- SD卡读取权限，用户写入离线定位数据-->
 <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
 ```
@@ -87,7 +95,9 @@ PS：`SHA1`找了我好久...
 - 在`Application`标签中声明`SERVICE`组件,每个APP拥有自己单独的定位`SERVICE`：
 
 ```
-<service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"/>
+<service android:name="com.baidu.location.f" 
+		 android:enabled="true" 
+		 android:process=":remote"/>
 ```
 
 - 百度定位SDK在4.2版本之后需要在 *AndroidMainfest.xml* 中正确设置`Accesskey（AK）`，如果设置错误将会导致定位和地理围栏服务无法正常使用。设置`AK`，在`Application`标签中加入：
@@ -100,7 +110,7 @@ PS：`SHA1`找了我好久...
 
 #### 2. 新建`LBSwithBaidu`，`LBSwithBaidu`代码如下：
 
-```
+```Java
 public class LBSwithBaidu extends AppCompatActivity {
       private TextView text;
       private LocationClient client;

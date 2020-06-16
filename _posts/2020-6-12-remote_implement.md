@@ -109,7 +109,9 @@ PS：关于命令行上传，可以百度或者看这里：[上传本地项目�
 ```
 buildscript { 
   dependencies {
-    classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1' // Add this line
+	classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1' // Add this line
+  }
+}
 ```
 
 2) 在`library`的`build.gradle`中添加，`${YourUsername}`是远程依赖的项目名：

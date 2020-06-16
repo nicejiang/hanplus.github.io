@@ -18,14 +18,14 @@ tags:
 
 简介：用于替代`HttpUrlConnection`和`Apache HttpClient`(android API23  6.0里已移除`HttpClient`)。
 
-######`implementation 'com.squareup.okhttp3:okhttp:3.9.1'`
+###### `implementation 'com.squareup.okhttp3:okhttp:3.9.1'`
 ***
 
 ###### **[Retrofit](https://github.com/square/retrofit)**：时下非常火的网络请求框架，也由 Square 贡献。
 
 简介：该库基于 `Http` 协议，封装了 `okHttp `的网络请求框架，与`RxJava`完美结合，现在是2.0版本，也就是大家常说的`Retrofit2`。
 
-######`implementation 'com.squareup.retrofit2:retrofit:2.5.0'`
+###### `implementation 'com.squareup.retrofit2:retrofit:2.5.0'`
 
 ***
 
@@ -33,7 +33,7 @@ tags:
 
 简介：该库基于 `Http` 协议，封装了 `okHttp `的网络请求框架，支持 `RxJava`，`RxJava2`，支持自定义缓存，支持批量断点下载管理和批量上传管理功能，虽然借鉴了`retrofit`，但是也有突出的地方，比如说有`retrofit`所没有的下载进度监听等。
 
-######`implementation 'com.lzy.net:okgo:3.0.4'`
+###### `implementation 'com.lzy.net:okgo:3.0.4'`
 
 ***
 
@@ -41,7 +41,7 @@ tags:
 
 简介：可以用来实现开发中常使用到的圆形用户头像，一个自定义快速圆形`ImageView`，非常实用。
 
-######`implementation 'de.hdodenhof:circleimageview:2.2.0'`
+###### `implementation 'de.hdodenhof:circleimageview:2.2.0'`
 
 ***
 
@@ -49,7 +49,7 @@ tags:
 
 简介：一个在 `Java VM `上使用可观测的序列来组成异步的、基于事件的程序的库，现在是2.0版本，也就是大家常说的`RxJava2`。
 
-######`implementation 'io.reactivex.rxjava2:rxjava:2.x.y'`
+###### `implementation 'io.reactivex.rxjava2:rxjava:2.x.y'`
 
 ***
 
@@ -57,7 +57,7 @@ tags:
 
 简介：`Gson`是一个`Java`库，可以用来将`Java`对象转换成他们的`JSON`表示。它还可以用于将一个`JSON`字符串转换为一个等价的`Java`对象。`Gson`可以使用任意的`Java`对象，包括那些你没有源代码的预先存在的对象。
 
-######`implementation 'com.google.code.gson:gson:2.8.2'`
+###### `implementation 'com.google.code.gson:gson:2.8.2'`
 ***
 
 ###### **[LitePal](https://github.com/LitePalFramework/LitePal)**：一款封装完善的`SQLite`框架。
