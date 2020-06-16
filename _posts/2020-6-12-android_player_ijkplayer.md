@@ -1,3 +1,15 @@
+---
+layout:     post
+title:      "『Android』 MediaPlayer+TextureView实现视频播放器"
+subtitle:   "基于MediaPlayer/IjkPlayer +TextureView实现。"
+date:       2018-06-29 12:00:00
+author:     "HanPlus"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - Android
+---
+
 ## 前言
 借鉴了jiaozi播放器和gsyplayer的播放器框架，支持mediaplayer和iijkplayer切换，支持全屏播放、时间显示、实时网速获取以及播放时各种参数控制。 
 > **项目地址：[Jvideoview](https://github.com/HanPlus/Jvideoview)**
